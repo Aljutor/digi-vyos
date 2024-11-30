@@ -1,0 +1,10 @@
+#!/bin/vbash
+source /opt/vyatta/etc/functions/script-template
+# DO NOT USE AS IS
+# READ CAREFULLY AND UPDATE WHERE NEEDED
+
+# Currently vyos has no support for this in a cli
+# We need to force a specific local ipv6 for pppoe0 interface
+# This ipv6 is based on a mac address from DIGI router
+# Example: A2:B2:D3:63:C2:26 -> ::A2B2:D363:C226
+sudo sed -i '/+ipv6 ipv6cp-use-ipaddr/c\+ipv6\nipv6 ::xxxx:xxxx:xxxx' /etc/ppp/peers/pppoe0
