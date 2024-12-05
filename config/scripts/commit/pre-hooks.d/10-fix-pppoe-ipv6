@@ -1,7 +1,7 @@
 #!/bin/vbash
 source /opt/vyatta/etc/functions/script-template
 # DO NOT USE AS IS
-# READ CAREFULLY AND UPDATE WHERE NEEDED
+# READ CAREFULLY AND UPDATE AS NEEDED
 
 # Currently vyos has no support for this in a cli
 # We need to force a specific local ipv6 for pppoe0 interface

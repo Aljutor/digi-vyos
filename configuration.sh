@@ -1,6 +1,6 @@
 #!/bin/vbash
 # DO NOT USE AS IS
-# READ CAREFULLY AND UPDATE WHERE NEEDED
+# READ CAREFULLY AND UPDATE AS NEEDED
 
 # XGS-ONU-25-20NI telnet normaly available on 192.168.100.1
 set interfaces ethernet eth0 address '192.168.100.2/24'
