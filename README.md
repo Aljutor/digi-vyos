@@ -32,7 +32,7 @@ With this, you should have basic ipv4 connectivity.
 ## IPv6
 
 Unfortunatly, for IPv6 it's quite more difficult.
-DIGI has strange configuration and it can break/change sometimes.
+DIGI has a strange configuration and it can break/change sometimes.
 
 Key moments for now are those:
 
