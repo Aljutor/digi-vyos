@@ -1,7 +1,7 @@
 #!/bin/vbash
 source /opt/vyatta/etc/functions/script-template
 # DO NOT USE AS IS
-# READ CAREFULLY AND UPDATE WHERE NEEDED
+# READ CAREFULLY AND UPDATE AS NEEDED
 
 # Script to run when PPPoE interface comes up in VyOS
 # Set the name of your PPPoE interface
